@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>info</title>
+</head>
+<body>
+<div style="background-color:black;color:white;padding:20px;">
+    <div id = block1><h2>Address Information</h2>
+        <p>{{response1['Address Information']}}</p></div>
+
+        <div id = block2><h2>ALGO BALANCE</h2>
+            <p>{{response1['ALGO BALANCE']}}</p></div>
+
+        <div id = block2><h2>ROUND LAST SEEN</h2>
+            <p>{{response1['ROUND LAST SEEN']}}</p></div>
+            <div id = block2><h2>REWARDS</h2>
+                <p>{{response1['REWARDS']}}</p></div>
+        
+        <div id = block2><h2>PENDING REWARDS</h2>
+            <p>{{response1['PENDING REWARDS']}}</p></div>
+            <div id = block2><h2>STATUS</h2>
+                <p>{{response1['STATUS']}}</p></div>
+</div> 
+<div>
+    <p>{% raw response %}</p>
+</div>
+</body> 
+</html>
